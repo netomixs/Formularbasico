@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Nuevo registro</h1>
+    <form action="">
+        <section class="section-container">
+            <h3 class="title-seccion">Datos personales</h3>
+            <div class="container-line">
+                <label for="input-name">
+                    <span class="label">Nombre</span>
+                    <input type="text" name="input-name" class="input-text">
+                </label>
+
+            </div>
+            <div class="container-line">
+                <label for="input-lastnameP"> <span class="label">Apellido Paterno</span><input type="text"
+                        name="input-lastnameP" class="input-text"></label>
+
+                <label for="input-lastnameM"> <span class="label">Apellido Materno</span><input type="text"
+                        name="input-lastnameM" class="input-text"></label>
+
+            </div>
+            <div class="container-line">
+                <label for="input-date"> <span class="label">Fecha de nacimiento</span><input type="date"
+                        name="input-date" class="input-date"></label>
+
+                <label for="input-sexo"><span class="label">Sexo</span>
+                    <select name="input-sexo" id="" class="input-select">
+                        <option value="M">Mujer</option>
+                        <option value="H">Hombre</option>
+                        <option value="O">Otro</option>
+                    </select></label>
+
+            </div>
+            <div class="container-line">
+                <label for="input-curp"><span class="label">Curp</span>
+                    <input type="text" name="input-curp" class="input-text">
+                </label>
+
+            </div>
+            <div class="container-line">
+                <label for="input-civil"><span class="label">Estado civil</span>
+                    <select name="input-civil" id="" class="input-select">
+                        <option value="C">Casado</option>
+                        <option value="S">Soltero</option>
+                        <option value="V">Viudo/a</option>
+                        <option value="D">Divorcio</option>
+                    </select>
+                </label>
+
+            </div>
+        </section>
+        <section class="section-container">
+            <h3 class="title-seccion">Datos de contacto</h3>
+            <div class="container-line">
+                <label for="input-country"><span class="label">Pais</span>
+                    <input type="text" name="input-country" class="input-text">
+                </label>
+
+                <label for="input-state"><span class="label">Estado</span>
+                    <input type="text" name="input-state" class="input-text">
+                </label>
+
+            </div>
+            <div class="container-line">
+                <label for="input-municipio"><span class="label">Municipio</span>
+                    <input type="text" name="input-municipio" class="input-text">
+                </label>
+
+                <label for="input-local"><span class="label">Localidad</span>
+                    <input type="text" name="input-local" class="input-text">
+                </label>
+
+            </div>
+            <div class="container-line">
+                <label for="input-street"><span class="label">Calle</span>
+                    <input type="text" name="input-street" class="input-text">
+                </label>
+
+                <div class="container-grid">
+                    <label for="input-inter"><span class="label">No. Interior</span><input type="text"
+                            name="input-inter" class="input-text chico"></label>
+
+                    <label for="input-exter"><span class="label">No. Exterior</span><input type="text"
+                            name="input-exter" class="input-text chico"></label>
+
+                </div>
+
+            </div>
+            <div class="container-line">
+                <label for="input-tel"><span class="label">Telefono</span><input type="tel" name="input-tel"
+                        class="input-text"></label>
+
+                <label for="input-mail"><span class="label">Correo</span> <input type="email" name="input-mail"
+                        class="input-text"></label>
+
+            </div>
+        </section>
+        <section class="section-container">
+            <h3 class="title-seccion">Datos academicos</h3>
+            <div class="container-line">
+                <label for="input-matricula"><span class="label">Matricula</span><input type="tel"
+                        name="input-matricula" class="input-text"></label>
+
+
+            </div>
+
+            <div class="container-line">
+                <label for="input-carrera"><span class="label">Carrera</span><input type="email" name="input-carrera"
+                        class="input-text"></label>
+
+            </div>
+            <div class="container-line">
+                <label for="input-especialidad"><span class="label">Especialidad</span> <select
+                        name="input-especialidad" id="" class="input-select">
+                        <option value="1">Especialidad 1</option>
+                        <option value="1">Especialidad 2</option>
+                        <option value="1">Especialidad 3</option>
+                        <option value="1">Especialidad 4</option>
+                    </select></label>
+
+            </div>
+            <div class="container-line">
+                <label for="input-especialidad"><span class="label">Plan de estudios</span><select
+                        name="input-especialidad" id="" class="input-select">
+                        <option value="1">Plan 1</option>
+                        <option value="1">Plan 2</option>
+                        <option value="1">Plan 3</option>
+                        <option value="1">Plan 4</option>
+                    </select></label>
+
+            </div>
+            <div class="container-line">
+                <label for="input-Tutor"><span class="label">Tutor</span> <input type="email" name="input-Tutor"
+                        class="input-text"></label>
+
+            </div>
+        </section>
+        <div class="form-foot">
+            <button class="btn">Enviar</button>
+        </div>
+    </form>
+</body>
+
+</html>

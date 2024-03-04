@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-container {
+  border-color: black;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  box-shadow: 5px 5px ;
+}
+.title-seccion {
+  font-size: 24px;
+}
+h1 {
+  text-align: center;
+}
+.container-line {
+  display: flex;
+  flex-wrap: wrap;
+}
+label{
+    margin-bottom: 10px;
+    color: black;
+    font-weight:bold;
+    margin-right: 10px;
+}
+.label{
+margin-right: 10px;
+}
+.chico{
+    width: 50px;
+}
+.input-text {
+    border-radius: .3rem;
+    height: 25px;
+    font-size: 16px;
+}
+
+.input-date {
+    border-radius: .3rem;
+    width: 100px;
+    font-size: 14px;
+}
+.input-select {
+    border-radius: .3rem;
+    width: 80px;
+    font-size: 14px;
+}
+.container-grid {
+   margin-bottom: 10px;
+}
+.form-foot{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn{
+    width: 50vw;
+    background-color: rgb(235, 235, 235);
+    border-radius: .5rem;
+height: 30px;
+}
